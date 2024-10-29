@@ -11,7 +11,8 @@ public class SumaIgual {
         return suma;
     }
     public static void main(String[] args) {
-        int numUsuario = 15;
+        //int numUsuario = 15;
+        int numUsuario = Utilidades.leerEntero("Introduce un número");
         int[] num = {2, 5, 12, 6, 7, 10, 6, 3, 8, 4};
         String suma = sumaIgual(num, numUsuario);
 
