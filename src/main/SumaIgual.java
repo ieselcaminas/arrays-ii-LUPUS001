@@ -13,7 +13,7 @@ public class SumaIgual {
     public static void main(String[] args) {
         //int numUsuario = 15;
         int numUsuario = Utilidades.leerEntero("Introduce un número");
-        int[] num = {2, 5, 12, 6, 7, 10, 6, 3, 8, 4};
+        int[] num = {2, 5, 12, 6, 7, 10, 3, 8, 4, 13, 1, 15};
         String suma = sumaIgual(num, numUsuario);
 
         System.out.println(suma);
