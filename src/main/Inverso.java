@@ -14,6 +14,7 @@ public class Inverso {
             // i [segunda iteración]= 1
             // - 1
             // 9 - 1 - 1 = 7  | y así es como hemos llegado, y asi sucesivamente hasta llegar al 0
+            /*La primera iteración sería lo mismo que poner inverso[8] = array[0]*/
         }
         return inverso;
     }
