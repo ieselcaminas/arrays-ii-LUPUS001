@@ -5,6 +5,15 @@ public class Inverso {
         int[] inverso = new int[array.length];
         for (int i = 0; i < array.length; i++) {
             inverso[array.length- i - 1] = array[i];
+            //array.length = 9
+            // i [primera iteración]= 0
+            // - 1
+            // 9 - 0 - 1 = 8, el que esta en la posicion 8 sería 9, luego en la siguiente iteración
+            //será 8 ya que está en la posición 7 y como hemos llegado a esto?
+            //array.length = 9
+            // i [segunda iteración]= 1
+            // - 1
+            // 9 - 1 - 1 = 7  | y así es como hemos llegado, y asi sucesivamente hasta llegar al 0
         }
         return inverso;
     }
